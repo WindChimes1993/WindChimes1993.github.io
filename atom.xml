@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://WindChimes1993.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-08-08T04:51:14.963Z</updated>
+    <title>CPlusPlus</title>
+    <updated>2021-08-08T05:06:34.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://WindChimes1993.github.io"/>
     <link rel="self" href="https://WindChimes1993.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>为了自己爱的人，勇往直前吧。</subtitle>
     <logo>https://WindChimes1993.github.io/images/avatar.png</logo>
     <icon>https://WindChimes1993.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, CPlusPlus</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://WindChimes1993.github.io/post/hello-gridea/</id>
