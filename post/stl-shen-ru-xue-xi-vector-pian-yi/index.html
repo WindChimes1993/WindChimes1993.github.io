@@ -9,7 +9,7 @@
 <meta name="description" content="为了自己爱的人，勇往直前吧。">
 <meta name="theme-color" content="#000">
 <title>STL深入学习 vector篇 （一） | CPlusPlus</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1628405435066">
+<link rel="shortcut icon" href="/favicon.ico?v=1628406059411">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -338,7 +338,7 @@
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>561<span class="pc-show language" data-lan="words">字数</span></span>
+      <span>574<span class="pc-show language" data-lan="words">字数</span></span>
     </span>
     
   </div>
@@ -362,6 +362,12 @@ m_pID = new int(nID);<br>
 	std::cout &lt;&lt; &quot;Student destruction...&quot; &lt;&lt; std::endl;
 	delete m_pID;
 	m_pID = nullptr;
+}
+
+Student(const Student&amp; stu)
+{
+    m_nID = stu.m_nID;
+    m_pID = new int(*stu.m_pID);
 }
 </code></pre>
 <p>private:<br>
@@ -1501,6 +1507,12 @@ m_pID = new int(nID);&lt;br&gt;
 	std::cout &amp;lt;&amp;lt; &amp;quot;Student destruction...&amp;quot; &amp;lt;&amp;lt; std::endl;
 	delete m_pID;
 	m_pID = nullptr;
+}
+
+Student(const Student&amp;amp; stu)
+{
+    m_nID = stu.m_nID;
+    m_pID = new int(*stu.m_pID);
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;private:&lt;br&gt;
